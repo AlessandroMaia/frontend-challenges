@@ -1,0 +1,61 @@
+@import url(https://fonts.google.com/specimen/Kumbh+Sans);
+
+*{
+  font-family: 'Kumbh Sans', sans-serif;
+}
+.container {
+  width: 100vw;
+height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.card {
+  border-radius: 20px;
+  box-shadow: 9px 7px 5px hsl(0, 0%, 59%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card-header img{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.card-profile-picture img {
+  border-color: white;
+  border: 6px;
+  border-style: solid;
+  border-radius: 60px;
+  margin-top: -50%;
+}
+
+.card-profile-name {
+  align-items: center;
+}
+
+.card-bottom {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.card-bottom-followers {
+  text-align: center;
+  padding: 10px;
+}
+
+.card-bottom-likes {
+  text-align: center;
+  padding: 10px;
+}
+
+.card-bottom-photos {
+  text-align: center;
+  padding: 10px;
+}
